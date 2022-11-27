@@ -9,16 +9,16 @@ public class Person implements Comparable<Person> {
         this.age=age;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public int getAge() {
         return age;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void setSurname(String surname) {
