@@ -15,6 +15,7 @@ public class Main {
             }
             return Integer.compare(o1.getAge(), o2.getAge());
         });
+        Collections.sort(people, new PersonComparator());
         System.out.println(people);
     }
 }
